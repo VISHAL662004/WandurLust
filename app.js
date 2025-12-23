@@ -67,7 +67,7 @@ const sessionOptions = {
 
 // Root
   app.get("/", (req, res)=>{
-    res.redirect("/listing")
+    res.redirect("/listings")
   });
 
 
