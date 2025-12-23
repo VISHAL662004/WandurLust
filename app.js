@@ -65,10 +65,10 @@ const sessionOptions = {
   }
 };
 
-//Root
-  // app.get("/", (req, res)=>{
-  //   res.send("I am gRoot");
-  // });
+Root
+  app.get("/", (req, res)=>{
+    res.redirect("/listing")
+  });
 
 
 
