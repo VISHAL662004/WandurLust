@@ -65,7 +65,7 @@ const sessionOptions = {
   }
 };
 
-Root
+// Root
   app.get("/", (req, res)=>{
     res.redirect("/listing")
   });
